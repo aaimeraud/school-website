@@ -1,0 +1,13 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": ["src/output.css"],
+  "rules": {
+    "import-notation": null,
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["tailwind", "apply", "layer", "config", "theme"]
+    }],
+    "function-no-unknown": [true, {
+      "ignoreFunctions": ["theme"]
+    }]
+  }
+}
