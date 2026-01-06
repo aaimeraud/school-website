@@ -1,0 +1,25 @@
+# Changelog
+
+Toutes les modifications notables de ce projet seront documentées dans ce fichier.
+
+Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
+et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
+
+## [0.1.0] - 2026-01-06
+
+### Ajouté
+
+- **Structure du projet** : Initialisation avec HTML/CSS et Tailwind CSS
+- **Navigation** : Header avec logo et menu de navigation
+- **Hook pre-commit** : Configuration Husky + lint-staged pour vérifier HTML et CSS
+- **Linting HTML** : Configuration HTMLHint avec règles de base
+- **Linting CSS** : Configuration Stylelint adaptée pour Tailwind CSS
+- **Documentation** :
+  - `README.md` : Présentation du projet et installation
+  - `CONTRIBUTING.md` : Guide de contribution et workflow Git Flow
+  - `CODE_OF_CONDUCT.md` : Code de conduite
+- **Configuration Git** :
+  - `.gitignore` : Exclusion de `node_modules` et `.DS_Store`
+  - Workflow Git Flow (`main`, `develop`, `feature/*`, `fix/*`, `docs/*`)
+
+[0.1.0]: https://github.com/aaimeraud/school-website/releases/tag/v0.1.0
