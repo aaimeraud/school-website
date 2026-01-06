@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est le site web de notre école, [ecole-decode.fr](https://ecole-decode.fr).  
+Ce projet est le site web de notre école, [school-website](school-website-hazel-one.vercel.app).  
 L’objectif principal est de s’entraîner à utiliser GitHub et le workflow Git Flow en équipe.  
 L’accent est mis sur la collaboration, la gestion des versions et les bonnes pratiques Git, plutôt que sur la complexité du site lui-même.
 
