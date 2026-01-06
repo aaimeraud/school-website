@@ -2,7 +2,8 @@
 
 ## Description
 
-Ce projet est le site web de notre école, [school-website](school-website-hazel-one.vercel.app).  
+Ce projet est une copie du site web de notre école, [school-website](https://school-website-hazel-one.vercel.app).
+
 L’objectif principal est de s’entraîner à utiliser GitHub et le workflow Git Flow en équipe.  
 L’accent est mis sur la collaboration, la gestion des versions et les bonnes pratiques Git, plutôt que sur la complexité du site lui-même.
 
@@ -12,7 +13,7 @@ L’accent est mis sur la collaboration, la gestion des versions et les bonnes p
 
 - Appliquer le workflow Git Flow (`main`, `develop`, `feature/*`, `fix/*`)
 - Créer et gérer des Pull Requests avec review obligatoire
-- Signer tous les commits (GPG)
+- Signer tous les commits (SSH)
 - Suivre l’avancement via un GitHub Project (Kanban)
 - Mettre en place un linter avec hook `pre-commit` pour vérifier le code
 - Gérer des releases sur la branche `main`
