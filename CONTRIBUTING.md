@@ -54,12 +54,13 @@ Nous utilisons les [Gitmoji](https://gitmoji.dev/) pour préfixer nos messages d
 git commit -m ":sparkles: ajout de la section hero"
 ```
 
-### Signature des commits (GPG)
+### Signature des commits (SSH)
 
-Tous les commits doivent être signés avec GPG :
+Tous les commits doivent être signés avec SSH pour garantir leur authenticité.
 
 ```bash
-git commit -S -m ":sparkles: mon message"
+git config --global user.signingkey <votre_cle_ssh>
+git config --global commit.gpgsign true
 ```
 
 ---
