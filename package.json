@@ -1,0 +1,35 @@
+{
+  "name": "school-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "lint:html": "htmlhint src/**/*.html",
+    "lint:css": "stylelint src/**/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaimeraud/school-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aaimeraud/school-website/issues"
+  },
+  "homepage": "https://github.com/aaimeraud/school-website#readme",
+  "devDependencies": {
+    "htmlhint": "^1.8.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^39.0.1"
+  },
+  "lint-staged": {
+    "*.html": "npx htmlhint",
+    "*.css": "npx stylelint"
+  }
+}
