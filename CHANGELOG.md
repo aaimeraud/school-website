@@ -5,6 +5,16 @@ Toutes les modifications notables de ce projet seront documentées dans ce fichi
 Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
+## [0.2.0] - 2026-01-07
+
+### Ajouté
+
+- **Footer** : Ajout d'un pied de page avec copyright et liens externes
+
+### Corrigé
+
+- **Couleur des liens** : Correction du style des liens dans le footer (couleur amber)
+
 ## [0.1.0] - 2026-01-06
 
 ### Ajouté
@@ -22,4 +32,5 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
   - `.gitignore` : Exclusion de `node_modules` et `.DS_Store`
   - Workflow Git Flow (`main`, `develop`, `feature/*`, `fix/*`, `docs/*`)
 
+[0.2.0]: https://github.com/aaimeraud/school-website/releases/tag/v0.2.0
 [0.1.0]: https://github.com/aaimeraud/school-website/releases/tag/v0.1.0
