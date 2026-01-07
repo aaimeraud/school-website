@@ -69,6 +69,8 @@ git config --global commit.gpgsign true
 
 Un hook `pre-commit` est configuré avec **Husky** et **lint-staged** pour vérifier automatiquement la qualité du code avant chaque commit.
 
+![Exemple du hook pre-commit en action](PRE_COMMIT_HOOK/pre-commit.png)
+
 ### Outils de linting
 
 | Outil         | Fichiers | Description             |
