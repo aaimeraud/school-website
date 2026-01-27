@@ -2,10 +2,10 @@
 
 ## Description
 
-Ce projet est une copie du site web de notre école, [school-website](https://school-website-hazel-one.vercel.app).
+Ce projet est une "copie" du site web de notre école, [.decode](https://ecole-decode.fr).
 
 L’objectif principal est de s’entraîner à utiliser GitHub et le workflow Git Flow en équipe.  
-L’accent est mis sur la collaboration, la gestion des versions et les bonnes pratiques Git, plutôt que sur la complexité du site lui-même.
+L’accent est mis sur la collaboration, la gestion des versions et les bonnes pratiques Git, plutôt que le site lui-même (d'où la raison du site vibe codé).
 
 ---
 
